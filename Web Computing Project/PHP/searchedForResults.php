@@ -12,7 +12,7 @@ FROM parks';
 
 //if the user left the name field empty (i.e. any). Then dont set the name as a where for the sql query
 if($searchedNamed != 'Any'){
-	$searchStr = $searchStr . " WHERE Name = '". $searchedNamed ."'"; 
+	$searchStr = $searchStr . " WHERE Name LIKE '%". $searchedNamed ."%'"; 
 } 
 
 //checks if theres already a where statement in the query. if there is add the 'and' before the where for the suburb parameter
