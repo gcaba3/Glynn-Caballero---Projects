@@ -1,0 +1,10 @@
+/* CSS Document */
+div.innerbody{
+	display:table;
+	height:auto;
+	width:350px;
+	overflow:auto;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;	
+}

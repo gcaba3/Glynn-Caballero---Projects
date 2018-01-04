@@ -1,0 +1,160 @@
+/* CSS Document */
+Body {
+	margin:0px;	
+}
+
+div.header{
+	position:fixed;
+	margin:0px;
+	background-color: rgba(53,53,53,1.00);
+	height:75px;
+	width:100%;
+	min-width: 525px;
+}
+
+div.menu{
+	height:100%;
+	width:25%;
+	float:right;
+	display:table;
+}
+
+div.logo{
+	height:100%;
+	width:200px;
+	float:left;
+}
+
+div.menu a {
+	color:white;
+	display: table-cell;
+	padding:25px;
+	height:100%;
+	text-align:center;
+	vertical-align:middle;
+	text-decoration:none;
+	background-color:rgba(147,146,146,1.00);
+	border-style:solid;
+	border-color:black;
+}
+
+div.menu a:hover {
+	background-color:rgba(195,192,192,1.00);
+ 	text-decoration: underline;
+}
+
+div.container{
+	background: linear-gradient(to bottom left, rgba(74,145,190,1.00), white);
+	height:975px;
+	width:100%;
+	display: table;
+	min-width: 525px;
+}
+
+div.body{
+	display:table-cell;
+	vertical-align: middle;
+	align-content:center;
+}
+
+div.footer{
+	background-color: rgba(53,53,53,1.00);	
+	height:75px;
+	width:100%;
+	display:table;
+}
+
+div.footerColumn {
+	padding-top:10px;
+	display:table-cell;
+	text-align:center;
+}
+
+div.footerColumn a{
+	text-align:center;
+	color:white;
+	text-decoration:none;
+}
+
+div.footerColumn a:hover {
+	text-decoration:underline;
+}
+
+
+
+/* Results page stylings */
+div.mainResultsPageSection{
+	padding-top:75px;
+	display:table; 
+	width:400px; 
+	height:100%; 
+	margin-left:auto;
+	margin-right:auto;
+	background: linear-gradient(to bottom, rgba(208,208,208,1.00), white);
+	overflow:hidden;
+}
+
+div.miniSearchSection{
+	width:100%;
+	height:125px;
+	background: linear-gradient(to bottom, rgba(155,155,155,1.00), rgba(208,208,208,1.00));
+}
+
+div.miniSearchleftColumn{
+	height:100%; 
+	width:50%; 
+	float:left;
+	text-align:center;	
+}
+
+div.miniSearchrightColumn{
+	height:100%; 
+	width:50%; 
+	float:right;
+	text-align:center;	
+}
+
+div.searchedForSection{
+	width:100%;
+	height:auto;
+	float:left;
+	background: linear-gradient(to bottom, rgba(198,198,198,1.00), rgba(208,208,208,1.00));
+	overflow:hidden;
+}
+
+div.resultsSection{
+	width:100%;
+	height:auto;
+	text-align:center;
+}
+
+div.resultsSection p {
+	padding:1px;
+	margin:1px;
+}
+
+div.resultsSection a {
+	text-decoration:none;
+}
+
+div.resultsSection a:hover {
+	text-decoration:underline;
+}
+
+table.resultsTable {
+	border-collapse: collapse; 
+	margin-left:auto; 
+	margin-right:auto; 
+	width:100%; 
+	text-align:center;
+}
+
+table.resultsTable tr {
+	border-bottom: solid thin; 
+}
+
+table.resultsTable td {
+	padding:5px;
+}
+
+

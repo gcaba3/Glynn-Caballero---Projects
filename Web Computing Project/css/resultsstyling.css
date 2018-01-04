@@ -1,0 +1,94 @@
+/* CSS Document */
+div.mainResultsPageSection{
+	padding-top:75px;
+	display:table; 
+	width:700px; 
+	height:100%; 
+	margin-left:auto;
+	margin-right:auto;
+	background: linear-gradient(to bottom, rgba(208,208,208,1.00), white);
+	overflow:hidden;
+}
+
+div.miniSearchSection{
+	width:100%;
+	height:125px;
+	background: linear-gradient(to bottom, rgba(155,155,155,1.00), rgba(208,208,208,1.00));
+}
+
+div.miniSearchleftColumn{
+	height:100%; 
+	width:50%; 
+	float:left;
+	text-align:center;	
+}
+
+div.miniSearchrightColumn{
+	height:100%; 
+	width:50%; 
+	float:right;
+	text-align:center;	
+}
+
+div.searchedForSection{
+	width:100%;
+	height:auto;
+	float:left;
+	background: linear-gradient(to bottom, rgba(198,198,198,1.00), rgba(208,208,208,1.00));
+	overflow:hidden;
+}
+
+div.mapSection {
+	position: static;
+	width:100%; 
+	height:400px;
+	margin-bottom:40px;
+}
+
+div.map {
+	width:100%; 
+	height:100%; 
+	position:static;
+	z-index:1;
+}
+
+div.resultsSection{
+	width:100%;
+	height:auto;
+	text-align:center;
+}
+
+div.resultsSection p {
+	padding:1px;
+	margin:1px;
+}
+
+div.resultsSection a {
+	text-decoration:none;
+}
+
+div.resultsSection a:hover {
+	text-decoration:underline;
+}
+
+table.resultsTable {
+	border-collapse: collapse; 
+	margin-left:auto; 
+	margin-right:auto; 
+	width:100%; 
+	text-align:center;
+}
+
+table.resultsTable tr{
+	border-bottom: solid thin; 
+	border-top: solid thin;
+}
+
+table.resultsTable td {
+	padding:5px;
+}
+
+table.resultsTable p.parkLat, p.parkLon{
+	display:none; 
+	visibility:hidden;
+}

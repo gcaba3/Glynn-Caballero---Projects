@@ -1,0 +1,70 @@
+<!doctype html>
+<link rel="stylesheet" type="text/css" href="css/registrationstyling.css"/>
+<link rel="stylesheet" type="text/css" href="css/sitestyling.css"/>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Registration</title>
+<script type="text/javascript" src="scripts/functions.js"></script>
+<script type="text/javascript" src="scripts/registrationvalidation.js"></script>
+</head>
+
+<body>
+<div class="header">
+	<div class="logo">
+    <img src="images/logo.png" alt="something" height="100%" width="100%">
+    </div>
+
+    <div class="menu">
+    <a href="index.html">Search</a>
+    <a href="#">Login</a>
+    <a href="Registration.html">Register</a>
+    </div>
+</div>
+<div id="container" class="container">
+	<div class="body">
+    	<div class="innerbody">
+        	<h1> Registration </h1>
+            <form action="index.html" onSubmit=" return validateAll(this)">
+            <label> Full Name: </label><br>
+            <input name="fname" type="text" onKeyPress="turnOffError('invalidName')" required> 
+            <br><span id="invalidName" class="error"></span><br>
+            <label> Data of Birth: </label><br>
+            <input type="date" name="date"> <br><br>
+            <label> Postcode: </label><br>
+            <input type="number" min="0" name="postcode" onKeyPress="turnOffError('invalidName')"> 
+            <br><span id="invalidPostcode" class="error"> </span><br>
+            <label> Email: </label> <br>
+            <input type="email"><br><br>
+            <label> Username: </label><br>
+            <input name="username" type="text" onKeyPress="turnOffError('invalidUsername')" required> 
+            <br><span id="invalidUsername" class="error"></span><br>
+            <label> Password: </label><br>
+            <input name="password" type="password" onKeyPress="turnOffError('invalidPassword')" required> 
+            <br><span id="invalidPassword" class="error"> </span><br>
+            <label> Confirm Password: </label><br>
+            <input type="password" name="confpassword" onKeyPress="turnOffError('invalidPassword')" required><br><br>
+            <input type="submit" value="Confirm"><br><br>
+            </form>
+        </div>
+    </div>
+</div>
+<div id="footer" class="footer">
+<div class="footerColumn">  
+<a href="#"> Content </a> <br>
+<a href="#"> Content </a> <br>
+<a href="#"> Content </a>
+</div>
+<div class="footerColumn">
+<a href="#"> Content </a> <br>
+<a href="#"> Content </a> <br>
+<a href="#"> Content </a>
+</div>
+<div class="footerColumn">
+<a href="#"> Content </a> <br>
+<a href="#"> Content </a> <br>
+<a href="#"> Content </a>
+</div>
+</div>
+</body>
+</html>

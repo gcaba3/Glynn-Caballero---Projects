@@ -1,0 +1,100 @@
+<!doctype html>
+<link rel="stylesheet" type="text/css" href="css/styling.css"/>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Results Page</title>
+<script type="text/javascript" src="scripts/functions.js"></script>
+</head>
+
+<body>
+<div class="header">
+	<div class="logo">
+    <img src="images/logo.png" alt="something" height="100%" width="100%">
+    </div>
+
+    <div class="menu">
+    <a href="index.html">Search</a>
+    <a href="#">Login</a>
+    <a href="#">Register</a>
+    </div>
+</div>
+
+<div id="container" class="container">
+	<div class="body" >
+    	<div class="mainResultsPageSection" >
+        	<div class="miniSearchSection">
+            
+            <form id="newSearchForm" onsubmit="return newSearch(this)">
+            <div class="miniSearchleftColumn"> 
+            Enter Name:
+            <input name="parkName" type="text" placeholder="7th Brigade Park" style="text-align:center">
+            Choose minimum rating: <br>
+            <input id="rating" type="number" required  style="width:60px;" max="5" min="0" step="1" onChange="updateRating(this.value,'ratingrange');" value="0">
+            <br>
+            <input id="ratingrange" name="ratingrange" type="range"  min="0" max="5" step="1" value = "0" onChange="updateRating(this.value,'rating');">
+            </div>
+            <div class="miniSearchrightColumn" style="padding:0px;margin:0px;">
+           	Choose Suburb <br>
+            <select name="parkSuburb">
+            	<option></option>
+              	<option> Chermside </option>
+                <option> Greenslopes </option>
+                <option> UPR Mt Gravatt </option>
+            </select>
+            <br><br>
+            <input type="submit" value="New Search" > 
+            </div>
+            </form>
+            
+            </div>
+            
+            <div class="searchedForSection" style="text-decoration:">
+            <strong> Showing results for: </strong> <br>
+            <b> Name: </b> <a id="searchedName"></a>
+            <b> Suburb: </b> <a id="searchedSuburb"></a>
+            <b> Rating: </b> <a id="searchedRating"></a>
+            </div>
+            
+            <div class="resultsSection" style="">
+            	<table class="resultsTable">
+                	<tr>
+                    <td> 
+                    <a href="#"> 7TH BRIGADE PARK </a> 
+                    <p> HAMILTON RD </p>
+                    <p> CHERMSIDE </p>
+                   	<p> Distance: 5 km </p>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td> 
+                    <a href="#"> A. J. JONES RECREATION RESERVE </a> 
+                    <p> CORNWALL ST </p>
+                    <p> GREENSLOPES </p>
+                    <p> Distance: 10 km </p>
+                    </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="footer" class="footer">
+<div class="footerColumn">  
+<a href="#"> Content </a> <br>
+<a href="#"> Content </a> <br>
+<a href="#"> Content </a>
+</div>
+<div class="footerColumn">
+<a href="#"> Content </a> <br>
+<a href="#"> Content </a> <br>
+<a href="#"> Content </a>
+</div>
+<div class="footerColumn">
+<a href="#"> Content </a> <br>
+<a href="#"> Content </a> <br>
+<a href="#"> Content </a>
+</div>
+</div>
+</body>
+</html>

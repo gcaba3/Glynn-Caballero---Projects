@@ -1,0 +1,87 @@
+<!doctype html>
+<link rel="stylesheet" type="text/css" href="css/styling.css"/>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Search Page</title>
+<script type="text/javascript" src="scripts/functions.js"></script>
+</head>
+
+<body>
+<div class="header">
+	<div class="logo">
+    <img src="images/logo.png" alt="something" height="100%" width="100%">
+    </div>
+
+    <div class="menu">
+    <a href="index.html">Search</a>
+    <a href="#">Login</a>
+    <a href="#">Register</a>
+    </div>
+</div>
+<div id="container" class="container">
+	<div class="body">
+    	<div class="innerbody">
+        	<img src="images/logo.png" alt="something" height="100px" width="100%">
+            <form action="Results_page.html">
+            Search for a specific park
+            <br>
+            Enter Name <br>
+            <input type="text" placeholder="7th Brigade Park" style="text-align:center">
+            <br><br>
+            
+            Choose Suburb <br>
+            <select>
+            	<option></option>
+              	<option> Chermside </option>
+                <option> Greenslopes </option>
+                <option> UPR Mt Gravatt </option>
+            </select>
+            
+            <br><br>
+            Choose minimum rating <br>
+            <input type="number" required id="rating" style="width:60px;" max="5" min="0" step="1" onChange="updateRating(this.value,'ratingrange');" value="0">
+            <br>
+            <input  type="range" id="ratingrange" min="0" max="5" step="1" value = "0" onChange="updateRating(this.value,'rating');">
+            
+            
+            <br> <input type="submit" value="Search">
+            </form>
+            
+            <form>
+             <p>Or,  Find the closest parks by postcode </p>
+            Enter Postcode <br>
+            <input type="number" placeholder="4032" style="text-align:center; width:auto" min="0">
+            <br>
+            Within <input type="number" placeholder="0" style="width:35px;" min="0"> km
+            <br><br>
+            <input type="submit" value="Search">
+            <br>
+            </form>
+            
+            <form>
+            <br>
+            Or, Find parks near me: <input type="submit" value="Search">
+            </form>
+    	</div>
+    </div>
+</div>
+<div id="footer" class="footer">
+<div class="footerColumn">  
+<a href="#"> Content </a> <br>
+<a href="#"> Content </a> <br>
+<a href="#"> Content </a>
+</div>
+<div class="footerColumn">
+<a href="#"> Content </a> <br>
+<a href="#"> Content </a> <br>
+<a href="#"> Content </a>
+</div>
+<div class="footerColumn">
+<a href="#"> Content </a> <br>
+<a href="#"> Content </a> <br>
+<a href="#"> Content </a>
+</div>
+</div>
+</body>
+</html>

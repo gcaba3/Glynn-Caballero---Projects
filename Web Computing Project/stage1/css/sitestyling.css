@@ -1,0 +1,82 @@
+/* CSS Document */
+Body {
+	margin:0px;	
+}
+
+div.header{
+	position:fixed;
+	margin:0px;
+	background-color: rgba(53,53,53,1.00);
+	height:75px;
+	width:100%;
+	min-width: 525px;
+}
+
+div.menu{
+	height:100%;
+	width:25%;
+	float:right;
+	display:table;
+}
+
+div.logo{
+	height:100%;
+	width:200px;
+	float:left;
+}
+
+div.menu a {
+	color:white;
+	display: table-cell;
+	padding:25px;
+	height:100%;
+	text-align:center;
+	vertical-align:middle;
+	text-decoration:none;
+	background-color:rgba(147,146,146,1.00);
+	border-style:solid;
+	border-color:black;
+}
+
+div.menu a:hover {
+	background-color:rgba(195,192,192,1.00);
+ 	text-decoration: underline;
+}
+
+div.container{
+}
+
+div.body{
+	display:table-cell;
+	vertical-align: middle;
+	align-content:center;
+}
+
+div.footer{
+	background-color: rgba(53,53,53,1.00);	
+	height:75px;
+	width:100%;
+	display:table;
+}
+
+div.footerColumn {
+	padding-top:10px;
+	display:table-cell;
+	text-align:center;
+}
+
+div.footerColumn a{
+	text-align:center;
+	color:white;
+	text-decoration:none;
+}
+
+div.footerColumn a:hover {
+	text-decoration:underline;
+}
+
+span.error {
+	color:rgba(255,0,4,1.00);
+	visibility:hidden;
+	height:auto;
+}

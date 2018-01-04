@@ -1,0 +1,263 @@
+*   d3af0ff : Merge branch 'master' of https://bitbucket.org/DatBoiOShitWaddup/cab302
+|\  
+| * f342024 : Added units in GUI
+* | 1affa20 : Fixed loghandler customer tests
+* | c9a6b1c : Updated documentation
+* | 6a23deb : Final fixes and updates, added documentation
+|/  
+* 11f6358 : @author didnt work, so i changed it
+* 6ccd888 : Added my name for javadoc. Also made statement.
+* 0748309 : Fixed up my classes, tests and the GUI
+* 047fab4 : Added more tests, fixed log handler customer tests
+* 15c4cab : Fixed delviery distance tests
+* 49d96a1 : Fixed meatlovers class
+* a73a5fa : Small fixes in GUI, now displays tota
+* 37bb0a1 : Bug fixes
+* b7f3442 : Fixed up some files, added a few tests`
+* 89b112b : Gui now shows pizza table
+* f69af41 : Bug fixes
+* b8036d4 : bug fixes
+* 3207abf : Pushed bug fixes
+* bacca09 : fixed gui display of decimals
+* 1d53925 : Almost finished GUI, I think populateDataset is flagging a false Exceptionl
+* fe9b5be : Finished logHandler, customerLogHandlerTests, Edited customerTests, vairous other fixes
+* c860d1f : Asgn2Pizzas and Customer tests updated, finished implementation of PizzaRestaurant
+* 2dfcee9 : Finished CustomerLoghandler,CustomerPizzaRestaurant
+* cf333db : Fixed Customer and CustomerFactory:
+*   76fed70 : Merge branch 'master' of https://bitbucket.org/DatBoiOShitWaddup/cab302
+|\  
+| * da44ac6 : Fixes
+* | 398967c : fixed up tests
+* | 434198a : Merge branch 'master' of https://bitbucket.org/DatBoiOShitWaddup/cab302
+* | ab5416a : Finished asgn2Customers
+|/  
+* cd08db3 : Implementation of the Pizza package
+* 4e73652 : Customer, CustomerFactory and RestaurantCustomer Tests
+* 94bcea5 : CustomerTests
+* ed39042 : Finished my designated test's
+* dfb2d65 : Changed docs and logs to their updated versions.
+* a760558 : test`
+* e47424f : 7/05/2017 test shells
+* 2977c92 : swagcommit d3af0ffa84fa8efe3bd924635089fec3f0afe453
+Merge: 1affa20 f342024
+Author: Matt Nolan <Matt Nolan>
+Date:   Thu Jun 1 18:30:02 2017 +1000
+
+    Merge branch 'master' of https://bitbucket.org/DatBoiOShitWaddup/cab302
+
+commit 1affa20db64df6d7ac3277334dd8ddcf50a30abe
+Author: Matt Nolan <Matt Nolan>
+Date:   Thu Jun 1 13:55:47 2017 +1000
+
+    Fixed loghandler customer tests
+
+commit c9a6b1c4ca691552eab045bb133ae0c578dce296
+Author: Matt Nolan <Matt Nolan>
+Date:   Thu Jun 1 13:48:51 2017 +1000
+
+    Updated documentation
+
+commit 6a23debcecf8b13ba0511720618773edb9471992
+Author: Matt Nolan <Matt Nolan>
+Date:   Thu Jun 1 13:39:56 2017 +1000
+
+    Final fixes and updates, added documentation
+
+commit f3420242cc71c45c2684abf4df3ccadb79a13178
+Author: gcaba3 <glynn.caballero@connect.qut.edu.au>
+Date:   Thu Jun 1 13:18:56 2017 +1000
+
+    Added units in GUI
+
+commit 11f63588e93ae84659042cdf72616cfbfc5edfeb
+Author: Glynn Caballero <glynn.caballero@connect.qut.edu.au>
+Date:   Wed May 31 17:08:04 2017 +1000
+
+    @author didnt work, so i changed it
+
+commit 6ccd888110e935b061b48ecb508e7660e8dbdfbd
+Author: Glynn Caballero <glynn.caballero@connect.qut.edu.au>
+Date:   Wed May 31 16:55:49 2017 +1000
+
+    Added my name for javadoc. Also made statement.
+
+commit 07483095fac5c03eb99b92d66f1523d6752dc0bc
+Author: Glynn Caballero <glynn.caballero@connect.qut.edu.au>
+Date:   Tue May 30 19:47:37 2017 +1000
+
+    Fixed up my classes, tests and the GUI
+
+commit 047fab4abef4c4334aa4920d6a05810a2a864390
+Author: Matt Nolan <Matt Nolan>
+Date:   Mon May 29 16:23:00 2017 +1000
+
+    Added more tests, fixed log handler customer tests
+
+commit 15c4cab6adbb0086efa1f5a0a3400f7df0aaf047
+Author: Matt Nolan <Matt Nolan>
+Date:   Mon May 29 15:14:53 2017 +1000
+
+    Fixed delviery distance tests
+
+commit 49d96a1753dd9c9a1072e90bb76dea3c167318a4
+Author: Matt Nolan <Matt Nolan>
+Date:   Mon May 29 15:13:12 2017 +1000
+
+    Fixed meatlovers class
+
+commit a73a5fad4d9e1b6ab58e8fa8246398f9b12b41a0
+Author: Glynn Caballero <glynn.caballero@connect.qut.edu.au>
+Date:   Mon May 29 15:02:03 2017 +1000
+
+    Small fixes in GUI, now displays tota
+
+commit 37bb0a13af04776377b031c94a2f670db313bc05
+Author: Matt Nolan <Matt Nolan>
+Date:   Mon May 29 13:29:52 2017 +1000
+
+    Bug fixes
+
+commit b7f344215e6bf5d3401ea5f5ff61c64ea3737b2c
+Author: Glynn Caballero <glynn.caballero@connect.qut.edu.au>
+Date:   Fri May 26 18:05:45 2017 +1000
+
+    Fixed up some files, added a few tests`
+
+commit 89b112b3dcf459fd664ee94ba7361a68b148c12a
+Author: Glynn Caballero <glynn.caballero@connect.qut.edu.au>
+Date:   Fri May 26 17:16:04 2017 +1000
+
+    Gui now shows pizza table
+
+commit f69af4176b9ee7eb58a476753d50d0c96dccd10a
+Author: Matt Nolan <Matt Nolan>
+Date:   Fri May 26 16:59:53 2017 +1000
+
+    Bug fixes
+
+commit b8036d4d1f25925d9934df39f64e40da4762530d
+Author: Matt Nolan <Matt Nolan>
+Date:   Fri May 26 16:49:08 2017 +1000
+
+    bug fixes
+
+commit 3207abf491d99d7bc204dc714064d6d98f0ac8ee
+Author: Matt Nolan <Matt Nolan>
+Date:   Fri May 26 16:29:50 2017 +1000
+
+    Pushed bug fixes
+
+commit bacca097b9e771b609ff9f1fd89d23780b0781f8
+Author: Glynn Caballero <glynn.caballero@connect.qut.edu.au>
+Date:   Wed May 24 22:03:26 2017 +1000
+
+    fixed gui display of decimals
+
+commit 1d5392593ba7ecb7005576156dd0961740fc2d33
+Author: Glynn Caballero <glynn.caballero@connect.qut.edu.au>
+Date:   Wed May 24 21:28:56 2017 +1000
+
+    Almost finished GUI, I think populateDataset is flagging a false Exceptionl
+
+commit fe9b5be2f5099152602c2a1bf0ddfd3243998404
+Author: Matt Nolan <Matt Nolan>
+Date:   Sat May 20 18:08:39 2017 +1000
+
+    Finished logHandler, customerLogHandlerTests, Edited customerTests, vairous other fixes
+
+commit c860d1f1dd7f30be4bf9df3e838c6fe2f182997f
+Author: Matt Nolan <Matt Nolan>
+Date:   Sat May 20 14:27:59 2017 +1000
+
+    Asgn2Pizzas and Customer tests updated, finished implementation of PizzaRestaurant
+
+commit 2dfcee9ad8fb42555f7df331fec9696e5fe6dada
+Author: Glynn Caballero <glynn.caballero@connect.qut.edu.au>
+Date:   Wed May 17 20:57:15 2017 +1000
+
+    Finished CustomerLoghandler,CustomerPizzaRestaurant
+
+commit cf333db6d8e728dfc3f331ba3c0ad377efb550d4
+Author: Glynn Caballero <glynn.caballero@connect.qut.edu.au>
+Date:   Wed May 17 20:56:23 2017 +1000
+
+    Fixed Customer and CustomerFactory:
+
+commit 76fed7052ad289db8137a02524eba85cec6f807a
+Merge: 398967c da44ac6
+Author: Glynn Caballero <glynn.caballero@connect.qut.edu.au>
+Date:   Wed May 17 17:09:34 2017 +1000
+
+    Merge branch 'master' of https://bitbucket.org/DatBoiOShitWaddup/cab302
+
+commit 398967c5bfe513276ed0a05458f670988d99e6b7
+Author: Glynn Caballero <glynn.caballero@connect.qut.edu.au>
+Date:   Wed May 17 17:03:56 2017 +1000
+
+    fixed up tests
+
+commit 434198acdc5079f40121d18d20c130e709f13803
+Author: Glynn Caballero <glynn.caballero@connect.qut.edu.au>
+Date:   Wed May 17 17:03:44 2017 +1000
+
+    Merge branch 'master' of https://bitbucket.org/DatBoiOShitWaddup/cab302
+
+commit da44ac60066441c081e9f6a6538ed4656e914490
+Author: Matt Nolan <Matt Nolan>
+Date:   Wed May 17 16:53:10 2017 +1000
+
+    Fixes
+
+commit ab5416a93e320243ade3fc35a3ab67612792e7d7
+Author: Glynn Caballero <glynn.caballero@connect.qut.edu.au>
+Date:   Wed May 17 16:32:36 2017 +1000
+
+    Finished asgn2Customers
+
+commit cd08db3b1f55e4809918ee3f4ea3b798763e594a
+Author: Matt Nolan <Matt Nolan>
+Date:   Wed May 17 15:50:21 2017 +1000
+
+    Implementation of the Pizza package
+
+commit 4e7365254acc0c27513a9f08c05723c46c6a78b2
+Author: Matt Nolan <Matt Nolan>
+Date:   Tue May 16 15:48:55 2017 +1000
+
+    Customer, CustomerFactory and RestaurantCustomer Tests
+
+commit 94bcea5f4a0fe3eb5ac41d838583d8cd2eeaf0c3
+Author: Matt Nolan <Matt Nolan>
+Date:   Mon May 15 14:22:19 2017 +1000
+
+    CustomerTests
+
+commit ed39042ab1dc744eb53d1a8a102dd69ed9662b9a
+Author: Glynn Caballero <glynn.caballero@connect.qut.edu.au>
+Date:   Fri May 12 21:30:12 2017 +1000
+
+    Finished my designated test's
+
+commit dfb2d650241f0d8d702d9c30d7afea73cbceccdc
+Author: Glynn Caballero <glynn.caballero@connect.qut.edu.au>
+Date:   Fri May 12 15:36:35 2017 +1000
+
+    Changed docs and logs to their updated versions.
+
+commit a760558d92acaca8825859d091a9d5b95590916b
+Author: Glynn Caballero <glynn.caballero@connect.qut.edu.au>
+Date:   Fri May 12 15:16:14 2017 +1000
+
+    test`
+
+commit e47424fb05cce8e0150d65a276e7ce1601984c37
+Author: Matt Nolan <Matt Nolan>
+Date:   Sun May 7 12:59:49 2017 +1000
+
+    7/05/2017 test shells
+
+commit 2977c92ca719a8e09135c0b7134366ebdb99735b
+Author: Matt Nolan <Matt Nolan>
+Date:   Fri May 5 12:42:42 2017 +1000
+
+    swag
